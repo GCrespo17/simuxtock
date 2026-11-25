@@ -1,0 +1,28 @@
+{
+  "name": "simuxtock",
+  "version": "1.0.0",
+  "description": "Stock Exchange Simulator",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev:server": "npm run dev -w @simuxtock/server",
+    "dev:web": "npm run dev -w web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCrespo17/simuxtock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GCrespo17/simuxtock/issues"
+  },
+  "homepage": "https://github.com/GCrespo17/simuxtock#readme",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
